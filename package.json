@@ -1,0 +1,32 @@
+{
+  "name": "wercker-npm-publish",
+  "version": "10.1.0",
+  "description": "wercker-npm-publish ===================",
+  "main": "index.js",
+  "bin": {
+    "wercker-npm-publish": "npm_publish.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lucamaraschi/wercker-npm-publish.git"
+  },
+  "keywords": [
+    "wercker",
+    "npm",
+    "publish",
+    "node.js"
+  ],
+  "author": "Luca Maraschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucamaraschi/wercker-npm-publish/issues"
+  },
+  "homepage": "https://github.com/lucamaraschi/wercker-npm-publish",
+  "dependencies": {
+    "semver": "~2.3.0",
+    "async": "~0.9.0"
+  }
+}
